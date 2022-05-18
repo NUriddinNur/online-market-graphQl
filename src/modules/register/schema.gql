@@ -1,0 +1,24 @@
+type Mutation {
+    register(
+        username: String!
+        password: String!
+        contact: String!
+        email: String!
+    ): RegisterResponse!
+}
+
+
+type RegisterResponse {
+    status: Int!
+    message: String!
+    data: User
+}
+
+type User {
+    userId: ID!
+    username: String!
+    token: String!
+    admin: String!
+    contact: String!
+    email: String!
+}

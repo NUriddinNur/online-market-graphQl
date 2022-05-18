@@ -1,0 +1,65 @@
+type Query {
+    getOrders(
+        orderId: ID
+        token: String!
+    ): [Order]!
+}
+
+type Mutation {
+    registerOrder(token: String!): Response!
+}
+
+
+type Mutation {
+    editOrder(
+        productId: ID!
+        token: String!
+    ): Response!
+}
+
+type Mutation {
+    deleteOrder(
+        token: String!
+    ): Response!
+}
+
+
+type Mutation {
+    addProduct(
+        token: String!
+        productId: ID!
+    ): Response!
+}
+
+
+type Response {
+    status: Int!
+    message: String!
+    data: Order!
+}
+
+type Order {
+    orderId: ID!
+    userId: ID!
+    totalPrice: Int!
+    isPaid: String!
+    date: String!
+    products: [ProductUser!]!
+}
+
+
+type ProductData {
+    productId: ID!
+    productname: String!,
+    price: Int!,
+    shortdesc: String!,
+    img: String!
+}
+
+type ProductUser {
+    product: ProductData!
+    count: Int!
+}
+
+
+

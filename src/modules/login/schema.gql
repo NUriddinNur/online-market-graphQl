@@ -1,0 +1,21 @@
+type Query {
+    login(
+        username: String!
+        password: String!
+    ): LoginResponse!
+}
+
+type LoginResponse {
+    status: Int!
+    message: String!
+    token: String!
+    data: User
+}
+
+type User {
+    userId: ID!
+    username: String!
+    contact: String!
+    email: String!
+    admin: String!
+}

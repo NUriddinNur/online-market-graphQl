@@ -1,0 +1,63 @@
+scalar Upload
+
+
+type Query {
+    getProducts(productId: ID): [Product!]!
+    otherFields: Boolean!
+}
+
+
+type Mutation {
+    insertProduct(
+        categoryId: ID!
+        productname: String!
+        price: Int!
+        shortdesc: String!
+        longdesc: String!
+        file: Upload!
+        token: String!
+    ): ResponseProduct!
+}
+
+type Mutation {
+    editProduct(
+        token: String!
+        productId: ID!
+        productname: String
+        price: Int
+        shortdesc: String
+        longdesc: String
+        file: Upload
+    ): ResponseProduct!
+}
+
+type Mutation {
+    deleteProduct(
+        token: String!
+        productId: ID!
+    ): ResponseProduct!
+}
+
+type File {
+    filename: String!
+    mimetype: String!
+    encoding: String!
+}
+
+
+type ResponseProduct {
+    status: Int!
+    message: String!
+    data: Product
+}
+
+type Product {
+    productId: ID!
+    category: String!
+    productname: String!
+    price: Int!
+    shortdesc: String!
+    longdesc: String!
+    img: String!
+}
+

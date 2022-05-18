@@ -1,0 +1,59 @@
+[
+    {
+        "username": "admin",
+        "password": "60fe74406e7f353ed979f350f2fbb6a2e8690a5fa7d1b0c32983d1d8b3f95f67",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 1,
+        "admin": true
+    },
+    {
+        "username": "Ali",
+        "password": "05c9b77d30ccbed4823a1c4e97632303f6cd7d29a015a9de760dc4ccf6b51b1d",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 2,
+        "admin": false
+    },
+    {
+        "username": "Vali",
+        "password": "05c9b77d30ccbed4823a1c4e97632303f6cd7d29a015a9de760dc4ccf6b51b1d",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 3,
+        "admin": false
+    },
+    {
+        "username": "Vali1",
+        "password": "05c9b77d30ccbed4823a1c4e97632303f6cd7d29a015a9de760dc4ccf6b51b1d",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 4,
+        "admin": false
+    },
+    {
+        "username": "Alo",
+        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 5,
+        "admin": false
+    },
+    {
+        "username": "Alo12",
+        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 6,
+        "admin": false
+    },
+    {
+        "username": "Vali2",
+        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
+        "contact": "998998729090",
+        "email": "Alo@s.mail",
+        "userId": 7,
+        "admin": false
+    }
+    
+]

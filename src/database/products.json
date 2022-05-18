@@ -1,0 +1,29 @@
+[
+    {
+        "productId": 4,
+        "categoryId": 1,
+        "productname": "asd",
+        "price": 1,
+        "shortdesc": "Acer ",
+        "longdesc": "Long Desc",
+        "img": "/images/blog-post-big.jpg"
+    },
+    {
+        "productId": 5,
+        "categoryId": 1,
+        "productname": "Acer",
+        "price": 20000,
+        "shortdesc": "Acer compyuter",
+        "longdesc": "Long Desc",
+        "img": "/images/1650356630357favicon.png"
+    },
+    {
+        "productId": 6,
+        "categoryId": 1,
+        "productname": "Acer1",
+        "price": 20000,
+        "shortdesc": "Acer compyuter",
+        "longdesc": "Long Desc",
+        "img": "/images/1650356729488favicon.png"
+    }
+]

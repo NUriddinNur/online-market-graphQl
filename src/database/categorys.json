@@ -1,0 +1,22 @@
+[
+    {
+        "categoryId": 1,
+        "categoryname": "compyuter"
+    },
+    {
+        "categoryId": 2,
+        "categoryname": "Camera"
+    },
+    {
+        "categoryId": 3,
+        "categoryname": "Smart devices"
+    },
+    {
+        "categoryId": 4,
+        "categoryname": "nokia"
+    },
+    {
+        "categoryId": 5,
+        "categoryname": "apple"
+    }
+]
